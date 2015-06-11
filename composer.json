@@ -1,6 +1,6 @@
 {
     "name": "utem/utils",
-    "description": "Funciones utilitarias para trabajar el rut chileno",
+    "description": "Funciones utilitarias UTEM",
     "license": "GPLv2",
     "keywords": ["rut"],
     "authors": [
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "UTEM\\": "src"
+            "UTEM\\Utils\\": "src"
         }
     }
 }
