@@ -1,11 +1,11 @@
-<?php namespace UTEM;
+<?php namespace UTEM\Utils;
 
 /**
  * Description of RutUtils
  *
  * @author Sebastián Salazar Molina <ssalazar@orangepeople.cl>
  */
-class RutUtils {
+class Rut {
 
     public static function rut($rut_str) {
         $r = str_replace(array('.', ',', '-'), "", strtoupper($rut_str));
