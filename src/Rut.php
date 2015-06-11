@@ -1,7 +1,7 @@
 <?php namespace UTEM\Utils;
 
 /**
- * Description of RutUtils
+ * Description of Rut
  *
  * @author Sebastián Salazar Molina <ssalazar@orangepeople.cl>
  */
@@ -59,7 +59,7 @@ class Rut {
     }
 
     public static function formatear($rut) {
-        $nuevo_rut = number_format($rut, 0, ",", ".") . "-" . RutUtils::dv($rut);
+        $nuevo_rut = number_format($rut, 0, ",", ".") . "-" . self::dv($rut);
         return $nuevo_rut;
     }
 
